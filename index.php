@@ -75,6 +75,15 @@ $app = JFactory::getApplication();
 						<li class="facebook"><a target="_blank" href="http://facebook.com/joomladagen">Facebook</a></li>
 						<li class="flickr"><a target="_blank" href="http://www.flickr.com/search/?q=joomladagen&s=rec">Flickr</a></li>
 					</ul>
+						 <div class="mobileselect">
+						 	<select style="display: inline-block;" id="mobileMenu_menu" class="mobileMenu">
+						 		<option value="">Abrir Menú</option>
+						 		<option value="">Inicio</option>
+						 		<option value="/conocenos/quienes-somos">Quiémes Somos</option>
+						 		<option value="/productos-y-servicios">Productos y Servicios</option>
+						 		<option value="/contacto">Contacto</option>
+						 	</select>
+						 </div>
 				</div>
 			</div>
 		</div><!-- Topbar -->
